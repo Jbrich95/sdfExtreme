@@ -183,8 +183,8 @@ for(it in 1:M){
     chi3.emp.boot[i]<-chi3.emp(boot[,1],boot[,2],boot[,3],q)
   }
 
-  chi3.UQ[it]<-quantile(chi3.emp.boot,prob=0.95)
-  chi3.LQ[it]<-quantile(chi3.emp.boot,prob=0.05)
+  chi3.UQ[it]<-quantile(chi3.emp.boot,prob=0.975)
+  chi3.LQ[it]<-quantile(chi3.emp.boot,prob=0.025)
 
   v_H<-(rdist(Dcoords[ind.triple,])/likD.MSP$par[2])^likD.MSP$par[1]
 
