@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599759852826.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1110398908",
+    "id" : "90372301",
+    "lastKnownWriteTime" : 1605704557,
+    "last_content_update" : 1605704557175,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/nllIMSPexp.R",
+    "project_path" : "R/nllIMSPexp.R",
+    "properties" : {
+        "cursorPosition" : "4,38",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

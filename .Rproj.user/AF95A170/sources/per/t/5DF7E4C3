@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605699704525.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3833889548",
+    "id" : "5DF7E4C3",
+    "lastKnownWriteTime" : 1605699718,
+    "last_content_update" : 1605699718856,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/Aus_Output.R",
+    "project_path" : "R/Aus_Output.R",
+    "properties" : {
+        "cursorPosition" : "2,42",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

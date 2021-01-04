@@ -1,0 +1,17 @@
+library(sdfEXTREME)
+
+example(m.reject) # runs to completion
+example(nllHT) # fails to run to completion
+example(sdf.heur.Cor) # runs to completion
+example(nllMSPexp) # not yet run to completion (long run time)
+example(stat.boot) # fails to run to completion
+example(makepairs) # not yet run to completion (long run time)
+example(FindSplineParFNCOR) # runs to completion
+example(brnsims) # not yet run to completion (long run time)
+example(chi3q) # fails to run to completion
+example(sdf.heur.EXTR) # not yet run to completion (long run time)
+example(FindSplineParFNEXTR) # runs to completion
+example(Score_Est) # not yet run to completion (long run time)
+example(nllIMSPexpSmith) # not yet run to completion (long run time)
+example(nllIMSPexp) # not yet run to completion (long run time)
+example(gamsv) # runs to completion

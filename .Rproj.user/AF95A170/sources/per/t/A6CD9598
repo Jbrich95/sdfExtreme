@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605701373938.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2045990175",
+    "id" : "A6CD9598",
+    "lastKnownWriteTime" : 1605701793,
+    "last_content_update" : 1605701793,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/man/nllHT.Rd",
+    "project_path" : "man/nllHT.Rd",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : true,
+    "read_only_alternatives" : [
+        "R/nllHT.R"
+    ],
+    "relative_order" : 26,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
