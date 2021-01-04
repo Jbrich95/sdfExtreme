@@ -59,9 +59,9 @@ nllMSPexp=function(par,ZBE,ZXE,ZYE,ZNE,coord,n.a,sphere.dis=F){
 
   if(smooth>2||smooth<0.01||range<0.01){return(10e10)}
   if(sphere.dis==F){
-    vario_H=(rdist(coord)/range)^smooth
+    vario_H=0.5*(rdist(coord)/range)^smooth
   }else{
-    vario_H=(rdist.earth(coord,miles=F)/range)^smooth
+    vario_H=0.5*(rdist.earth(coord,miles=F)/range)^smooth
 
 
   }
