@@ -129,18 +129,6 @@ nllIMSPexp=function(par,ZBE,ZXE,ZYE,ZNE,coord,n.a,sphere.dis=F){
     unique.a=matrix(a,ncol=1)
 
     u=as.numeric(ZNE[1,1])
-
-    u=qexp(pgev(u,1,1,1),1)
-
-    pNE=apply(unique.a,1,function(x){
-      V=Vterm(1/u,1/u,x[1])
-      log(1-(exp(-u))-(exp(-u))+exp(-V))
-    })
-    pNE=n.a*pNE
-    a=(2*var)^0.5
-    unique.a=matrix(a,ncol=1)
-
-    u=as.numeric(ZNE[1,1])
     pNE=apply(unique.a,1,function(x){
       V=Vterm(1/u,1/u,x[1])
       log(1-2*(exp(-u))+exp(-V))
