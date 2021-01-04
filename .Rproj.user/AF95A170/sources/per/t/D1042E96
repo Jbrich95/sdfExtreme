@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605701060226.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1430551629",
+    "id" : "D1042E96",
+    "lastKnownWriteTime" : 1605701070,
+    "last_content_update" : 1605701070753,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/Snow_Precip_Output.R",
+    "project_path" : "R/Snow_Precip_Output.R",
+    "properties" : {
+        "cursorPosition" : "2,42",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 22,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

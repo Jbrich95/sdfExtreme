@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600088881906.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2940472918",
+    "id" : "1FB6245C",
+    "lastKnownWriteTime" : 1606484099,
+    "last_content_update" : 1606484099180,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/Simulation_Study.R",
+    "project_path" : "Simulation_Study.R",
+    "properties" : {
+        "cursorPosition" : "410,0",
+        "scrollLine" : "389"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

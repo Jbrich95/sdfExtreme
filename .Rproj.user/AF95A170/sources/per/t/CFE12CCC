@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605701938835.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3206960763",
+    "id" : "CFE12CCC",
+    "lastKnownWriteTime" : 1605702171,
+    "last_content_update" : 1605702171928,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/Vterms.R",
+    "project_path" : "R/Vterms.R",
+    "properties" : {
+        "cursorPosition" : "6,104",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 33,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605700502624.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1448274851",
+    "id" : "6C54022F",
+    "lastKnownWriteTime" : 1605700763,
+    "last_content_update" : 1605700763265,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/FindSplineParsCOR.R",
+    "project_path" : "R/FindSplineParsCOR.R",
+    "properties" : {
+        "cursorPosition" : "12,107",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 20,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

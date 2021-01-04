@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605700472340.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1179687158",
+    "id" : "D4AA7776",
+    "lastKnownWriteTime" : 1605700495,
+    "last_content_update" : 1605700495530,
+    "path" : "C:/Users/flettj/OneDrive - Lancaster University/PhD/sdfEXTREME/R/chi3emp.R",
+    "project_path" : "R/chi3emp.R",
+    "properties" : {
+        "cursorPosition" : "15,20",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 19,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
