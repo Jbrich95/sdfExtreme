@@ -1,7 +1,7 @@
 # Spatial deformation for non-stationary extremal dependence
 Contains functions for creating spatial deformations to account for nonstationarity
 in spatial data. Both correlation based methods and methods adapted for extremal dependence
-are included. Accompanies the paper Richards,J., Wadsworth, J. L.<i>Spatial deformation for non-stationary extremal dependence</i>, Environmetrics, to appear.
+are included. Accompanies the paper Richards, J., Wadsworth, J. L. <i>Spatial deformation for non-stationary extremal dependence</i>, Environmetrics, to appear. [arXiv](https://arxiv.org/abs/2101.07167)
 ## Installation
 
 ```r
