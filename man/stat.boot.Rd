@@ -4,17 +4,17 @@
 \alias{stat.boot}
 \title{Stationary Bootstrap}
 \usage{
-stat.boot(X, block.size)
+stat.boot(X, mean.block.size)
 }
 \arguments{
 \item{X}{Matrix with \eqn{N} rows corresponding to time points and \eqn{d} columns corresponding to spatial locations.}
 
-\item{block.size}{Value of temporal block size.}
+\item{mean.block.size}{Expected value of temporal block size.}
 }
 \description{
 Creates one bootstrap sample of a \eqn{N} by \eqn{d} matrix, \code{X}. Here \eqn{N} denotes the number of time points
 and \eqn{d} the number of sampling locations. The stationary bootstrap (Politis and Romano, 1994) generates a bootstrap sample
-by blocking the rows into blocks of size \code{block.size} and sampling from these blocks.
+by repeated sampling of random blocks with expected value \code{block.size} until a sample of length \eqn{N} has been created.
 }
 \examples{
 \eqn{N} by \eqn{d} matrix
@@ -32,14 +32,7 @@ ind.triple<-c(1,2,3) ##Denotes indices of triple for which triple-wise chi calcu
 
 block.mean<-14 #Mean block size for random block choice - Here a fortnight
 
-#Generate random block size
-b=0
-while(b==0){
- ##Ensure block size is not 0
- b=rgeom(1,1/(block.mean+1))
-
-}
-boot <- stat.boot(Z_U[,ind.triple],b)
+boot <- stat.boot(Z_U[,ind.triple],block.mean)
 
 #Create one bootstrap estimate of triple-wise chi
 chi3.emp(boot[,1],boot[,2],boot[,3],q)

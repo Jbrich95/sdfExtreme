@@ -173,13 +173,8 @@ for(it in 1:M){
 
   chi3.emp.boot<-rep(0,B)
   for(i in 1:B){
-    b<-0
-    while(b==0){
 
-      b<-rgeom(1,1/(block.mean+1))
-
-    }
-    boot<-stat.boot(Z_U[,ind.triple],b)
+    boot<-stat.boot(Z_U[,ind.triple],block.mean)
     chi3.emp.boot[i]<-chi3.emp(boot[,1],boot[,2],boot[,3],q)
   }
 

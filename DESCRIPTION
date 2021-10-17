@@ -1,9 +1,9 @@
 Package: sdfEXTREME
 Type: Package
 Title: Spatial Deformation for Non-Stationary Extremal Dependence
-Version: 0.1.0
+Version: 0.1.1
 Author: Jordan Richards
-Maintainer: The package maintainer <j.flett@lancaster.ac.uk>
+Maintainer: The package maintainer <jordan.richards@kaust.edu.sa>
 Description: Contains functions for creating spatial deformations to account for non-stationarity in spatial data. Both correlation based methods and methods adapted for extremal dependence are included. Accompanies the paper of the same title. 
 License: GPL
 Encoding: UTF-8
