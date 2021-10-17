@@ -37,30 +37,31 @@
 stat.boot=function(X,mean.block.size){
   N=dim(X)[1]
   
+  #Generate random block sizes
+  b=rgeom(N,1/(mean.block.size+1))
   
-    #Wraps around
-  tempX=rbind(X,X)
+  sum=cumsum(b)
   
-  ind=sample(1:N,1)
-  b=0
-  while(b==0){
-   ##Ensure block size is not 0
-   b=rgeom(1,1/(mean.block.size+1))
-
-  }
-  boot=matrix(tempX[(ind):(ind+b-1),],nrow=b)
- while(dim(boot)[1]<N){
-    ind=sample(1:N,1)
-    b=0
-    while(b==0){
-      ##Ensure block size is not 0
-      b=rgeom(1,1/(mean.block.size+1))
-      
+  b=b[1:min(which(sum>=N))]
+  
+  #Find starting indices
+  inds=sample(1:N,length(b))
+  all_inds=c()
+  for(i in 1:length(b)){
+    
+    block_inds=inds[i]:(inds[i]+b[i]-1)
+    
+    #Wrap around indices
+    if(sum(block_inds>N)>0){
+      block_inds[block_inds>N]=1:sum(block_inds>N)
     }
-    boot=rbind(boot,tempX[(ind):(ind+b-1),])
-
-}
+    all_inds=c(all_inds,block_inds)
+    
+  }
   
-boot=boot[1:N,]
+  #Cut down to N only
+  all_inds=all_inds[1:N]
+  
+  boot=X[all_inds,]
   return(boot)
 }
